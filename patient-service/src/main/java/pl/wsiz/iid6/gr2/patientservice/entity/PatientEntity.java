@@ -36,9 +36,11 @@ public class PatientEntity{
     @Override
     public String toString() {
         return String.format(
-                "Patient[id=%d, firstName='%s', lastName='%s']",
+                "Patient[id=%d, firstName='%s', lastName='%s', pesel='%s']",
                 id, firstName, lastName, pesel);
     }
+
+
 
     public Integer getNrUbezpieczenia() {
         return nrUbezpieczenia;
