@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel = "stylesheet" href = "/css/styles.css" />
+    <title>Moja aplikacja</title>
+</head>
+<body>
+<h4>Wszystkie leki: </h4>
+<table>
+    <tr data-th-each="x : ${leki}">
+        <td data-th-text="${x.nazwa}">...</td>
+        <td data-th-text="${x.producent}">...</td>
+        <td data-th-text="${x.ilosc}">...</td>
+    </tr>
+</table>
+
+</body>
+</html>
