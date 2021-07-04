@@ -29,7 +29,7 @@ public class Pacjent extends Osoba {
     }
     public String toString() {
         return "Pacjent: " +getImie()+" "+getNazwisko()+" "+ getPesel()+" "+
-                "nrUbezpieczenia=" + nrUbezpieczenia +
+                " "+ getNrUbezpieczenia() +
                 ", lekarzRodzinny=" + lekarzRodzinny +
                 ", listaSkierowan=" + listaSkierowan +
                 ", listaBadan=" + listaBadan +
